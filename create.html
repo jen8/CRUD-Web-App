@@ -1,0 +1,42 @@
+<html> 
+<head>
+    <title> Create Student </title>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background:rgb(104, 159, 56);">
+<div style="margin:50px">
+  <div style="font-size:25px; margin:60px; float:left;">
+  <form action="/process_registration" method="POST">
+    <div style="font-weight:bold;"> User Registration Form </div>
+        <br>
+        <table style="font-size:25px">
+            <tr>
+                <td>First Name:</td>
+                <td>&nbsp;<input type="firstname" name="firstname" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>&nbsp;<input type="lastname" name="lastname" required></td>
+            </tr>
+            <tr>
+                <td>Grade Point Average:</td>
+                <td>&nbsp;<input type="gpa" name="gpa" required></td>
+            </tr>
+            <tr>
+                <td>Grade Level:</td>
+                <td>&nbsp;<input type="gradelevel" name="gradelevel" required></td>
+            </tr>
+        </table>
+
+        <div class="form-group" style="padding-top:20px">
+            <input style="font-size:25px;" type="submit" value="Submit">
+        </div>
+
+    </form>
+  </div>
+  
+</div>
+</body>
+</html>
